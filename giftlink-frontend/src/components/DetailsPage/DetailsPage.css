@@ -1,0 +1,72 @@
+/* Style for image placeholder */
+.image-placeholder-large {
+    width: 100%; /* Task 1: Set width to 100% */
+    height: 400px; /* Task 1: Set height to 400px */
+    position: relative; /* Task 1: Set position to relative */
+    background-color: #f0f0f0; /* Task 1: Placeholder background color */
+    /* Additional styles as needed */
+}
+
+/* Style for product image */
+.product-image-large {
+    width: 100%; /* Task 2: Set width to 100% */
+    height: 100%; /* Task 2: Set height to 100% */
+    object-fit: cover; /* Task 2: Ensure the image covers the area */
+    /* Additional styles as needed */
+}
+
+/* Style for 'no image available' placeholder */
+.no-image-available-large {
+    display: flex; /* Task 3: Use flexbox */
+    align-items: center; /* Task 3: Center the text vertically */
+    justify-content: center; /* Task 3: Center the text horizontally */
+    background-color: #ccc; /* Task 3: Set background color */
+    color: #333; /* Task 3: Set text color */
+    font-size: 18px; /* Task 3: Set font size */
+    /* Additional styles as needed */
+}
+
+/* Style for card header */
+.card-header {
+    background-color: #007bff; /* Task 4: Choose a background color */
+    color: #fff; /* Task 4: Set text color to white */
+    text-align: center;
+    padding: 15px;
+    /* Additional styles as needed */
+}
+
+/* Style for details title */
+.details-title {
+    font-size: 28px; /* Task 5: Apply font size */
+    color: #333; /* Task 5: Set text color */
+    font-weight: bold; /* Task 5: Make the title bold */
+    /* Additional styles as needed */
+}
+
+/* Style for comments section */
+.comments-section {
+    /* Task 6: Style the comments section for readability */
+    margin-top: 20px; /* Add top margin for spacing */
+    /* Additional styles as needed */
+}
+
+
+/* Style for individual comment card */
+.comments-section .card {
+    margin-bottom: 15px; /* Add bottom margin for spacing between cards */
+    /* Additional styles for individual comment card */
+}
+
+
+/* Style for comment author */
+.comments-section .comment-author {
+    font-weight: bold; /* Make the comment author's name bold */
+    /* Additional styles for comment author */
+}
+
+
+/* Style for comment text */
+.comments-section .comment-text {
+    /* Additional styles for comment text */
+    color: #555;
+}
